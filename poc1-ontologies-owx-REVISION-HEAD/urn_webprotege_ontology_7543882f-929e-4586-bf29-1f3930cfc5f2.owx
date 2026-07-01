@@ -1,0 +1,1738 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="urn:webprotege:ontology:7543882f-929e-4586-bf29-1f3930cfc5f2"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="urn:webprotege:ontology:7543882f-929e-4586-bf29-1f3930cfc5f2">
+    <Prefix name="" IRI="urn:webprotege:ontology:7543882f-929e-4586-bf29-1f3930cfc5f2#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#App"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DailyScreenTime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProductivityApp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VariableReward"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NotificationChannel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FeedAlgorithm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GamificationMechanism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NotificationMechanism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HabitLoop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LockScreenMechanism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PsychologicalTechnique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LockScreenNotification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OSComponent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InfiniteScrollFeed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InstitutionalIntention"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HedonicApp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PushNotification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CollectUserData"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SocialNetworkApp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UtilitarianApp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BoostInAppPurchases"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FOMO"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SocialValidation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TechnicalMechanism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UsageMetric"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AppDeveloper"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chen2023Sample"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Company"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DeliverContentInAttentionSurplus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DeliverCrowdsourcingTasksDuringTimeKilling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DeliverMicroLearningDuringTimeKilling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DeliverQuestionnairesDuringTimeKilling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EffectOnUser"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EngagementIntention"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Government"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IncreasedAddictiveUse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IncreasedHabitualUse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InstitutionalAgent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MonetizationIntention"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NonTimeKillingContext"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NotificationLoggingAPI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QualityOfLifeInstrument"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BehavioralRiskSignal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SleepProblemAssociation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QualityOfLife"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SmartphoneDistraction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PsychometricScale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NotificationCount"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FrequentUnlocking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LongSessionDuration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AppUsageDuration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProblematicUsagePattern"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SmartphoneAddiction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QualityOfLifeReduction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ScreeningScale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProblematicSocialMediaUse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AssistiveSelfRegulationAction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SelfRegulationAlert"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnlockFrequency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MeasurementInstrument"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FunctionalHarm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EmotionDysregulation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PatternExplanation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HighScreenTime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PossibleProblematicUsagePattern"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AcademicPerformanceLoss"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PassiveUsageMetric"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HighNotificationExposure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ContestedConstruct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProblematicSmartphoneUse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BehaviorPattern"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReducedHabitualOrAddictiveUseOutcome"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReducedPhubbingOutcome"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReducedTimeKillingOutcome"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Researcher"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ScreenshotCaptureAPI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SensorLoggingAPI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SessionLength"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SmartphoneUsageEpisode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SmartphoneUser"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StudySample"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TimeKillingContext"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TimeKillingPredictionMechanism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UsageContext"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UsageEpisode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UsageStatePredictionMechanism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WellbeingIntention"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/R73gxHwYKyP6FOMjBUAvjg"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/R9jDcz3uFj4yiQhXBTZT2jP"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RCSptgyushLRLsBVpCOvNut"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDJ41Inb7Pm5TLt2oIQztDa"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDdrbD4fdNj2WVjcfdgs7iC"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectPropertyImpl_0689f139_fbc0_4fdd_b539_fa36d0c8ba3e"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectPropertyImpl_72f72aa1_41d0_4eae_8aa9_6dcf1be858db"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectPropertyImpl_a9417789_6db9_4d8b_a081_949b5434e641"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#detectedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasUsageState"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://webprotege.stanford.edu/R9QeEMtyWlVay7goiGZTmr7"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://webprotege.stanford.edu/RB0jid3rMRjxl0rowXtnyhI"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://webprotege.stanford.edu/RBU6QGFoJg2H9XwmyJIAAaW"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasNotificationAvailabilityDuringTimeKilling"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasTimeKillingProportion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chen2023_TimeKillingSample"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GeneralFusionModel_SensorPlusScreenshot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividualImpl_012ca55b_69a9_43a7_a17c_9dd2008872e2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividualImpl_0cf773ab_faf3_44cd_8508_70ff1a5ad7c3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividualImpl_58ffdfcf_94ab_4335_84ec_c777ea2a1657"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividualImpl_65eb2001_fb2e_4b8f_befb_860a0eadbba0"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividualImpl_ecf86b8d_94b8_4ecf_ae28_1615a0719435"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#OWLAnnotationPropertyImpl_66ed0ed1_1c1d_4fe1_86aa_ee67b3d79c57"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#OWLAnnotationPropertyImpl_9634c0e0_db42_4778_a3ed_a85e061dd0e3"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#OWLAnnotationPropertyImpl_e4482738_e252_4c29_8a84_cc7591a3ab78"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#OWLAnnotationPropertyImpl_f03a28e3_2def_466f_a002_926fd76c40b1"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#DailyScreenTime"/>
+        <Class IRI="#PassiveUsageMetric"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProductivityApp"/>
+        <Class IRI="#UtilitarianApp"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VariableReward"/>
+        <Class IRI="#PsychologicalTechnique"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NotificationChannel"/>
+        <Class IRI="#OSComponent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FeedAlgorithm"/>
+        <Class IRI="#TechnicalMechanism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GamificationMechanism"/>
+        <Class IRI="#TechnicalMechanism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NotificationMechanism"/>
+        <Class IRI="#TechnicalMechanism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HabitLoop"/>
+        <Class IRI="#PsychologicalTechnique"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LockScreenMechanism"/>
+        <Class IRI="#TechnicalMechanism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PsychologicalTechnique"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LockScreenNotification"/>
+        <Class IRI="#LockScreenMechanism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InfiniteScrollFeed"/>
+        <Class IRI="#FeedAlgorithm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InstitutionalIntention"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HedonicApp"/>
+        <Class IRI="#App"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PushNotification"/>
+        <Class IRI="#NotificationMechanism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CollectUserData"/>
+        <Class IRI="#InstitutionalIntention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocialNetworkApp"/>
+        <Class IRI="#HedonicApp"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UtilitarianApp"/>
+        <Class IRI="#App"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BoostInAppPurchases"/>
+        <Class IRI="#InstitutionalIntention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FOMO"/>
+        <Class IRI="#PsychologicalTechnique"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocialValidation"/>
+        <Class IRI="#PsychologicalTechnique"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UsageMetric"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AppDeveloper"/>
+        <Class IRI="#InstitutionalAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chen2023Sample"/>
+        <Class IRI="#StudySample"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Company"/>
+        <Class IRI="#InstitutionalAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DeliverContentInAttentionSurplus"/>
+        <Class IRI="#InstitutionalIntention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DeliverCrowdsourcingTasksDuringTimeKilling"/>
+        <Class IRI="#DeliverContentInAttentionSurplus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DeliverMicroLearningDuringTimeKilling"/>
+        <Class IRI="#DeliverContentInAttentionSurplus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DeliverQuestionnairesDuringTimeKilling"/>
+        <Class IRI="#DeliverContentInAttentionSurplus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EngagementIntention"/>
+        <Class IRI="#InstitutionalIntention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Government"/>
+        <Class IRI="#InstitutionalAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IncreasedAddictiveUse"/>
+        <Class IRI="#EffectOnUser"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IncreasedHabitualUse"/>
+        <Class IRI="#EffectOnUser"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MonetizationIntention"/>
+        <Class IRI="#InstitutionalIntention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NonTimeKillingContext"/>
+        <Class IRI="#UsageContext"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NotificationLoggingAPI"/>
+        <Class IRI="#OSComponent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QualityOfLifeInstrument"/>
+        <Class IRI="#MeasurementInstrument"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PsychometricScale"/>
+        <Class IRI="#MeasurementInstrument"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NotificationCount"/>
+        <Class IRI="#PassiveUsageMetric"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FrequentUnlocking"/>
+        <Class IRI="#BehavioralRiskSignal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LongSessionDuration"/>
+        <Class IRI="#BehavioralRiskSignal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AppUsageDuration"/>
+        <Class IRI="#PassiveUsageMetric"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProblematicUsagePattern"/>
+        <Class IRI="#BehaviorPattern"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SmartphoneAddiction"/>
+        <Class IRI="#ContestedConstruct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QualityOfLifeReduction"/>
+        <Class IRI="#FunctionalHarm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ScreeningScale"/>
+        <Class IRI="#MeasurementInstrument"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProblematicSocialMediaUse"/>
+        <Class IRI="#ProblematicUsagePattern"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnlockFrequency"/>
+        <Class IRI="#PassiveUsageMetric"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FunctionalHarm"/>
+        <Class IRI="#EffectOnUser"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HighScreenTime"/>
+        <Class IRI="#BehavioralRiskSignal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PossibleProblematicUsagePattern"/>
+        <Class IRI="#BehaviorPattern"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AcademicPerformanceLoss"/>
+        <Class IRI="#FunctionalHarm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PassiveUsageMetric"/>
+        <Class IRI="#UsageMetric"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HighNotificationExposure"/>
+        <Class IRI="#BehavioralRiskSignal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProblematicSmartphoneUse"/>
+        <Class IRI="#ProblematicUsagePattern"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReducedHabitualOrAddictiveUseOutcome"/>
+        <Class IRI="#EffectOnUser"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReducedPhubbingOutcome"/>
+        <Class IRI="#EffectOnUser"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReducedTimeKillingOutcome"/>
+        <Class IRI="#EffectOnUser"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Researcher"/>
+        <Class IRI="#InstitutionalAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ScreenshotCaptureAPI"/>
+        <Class IRI="#OSComponent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SensorLoggingAPI"/>
+        <Class IRI="#OSComponent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SessionLength"/>
+        <Class IRI="#PassiveUsageMetric"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SmartphoneUsageEpisode"/>
+        <Class IRI="#UsageEpisode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TimeKillingContext"/>
+        <Class IRI="#UsageContext"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TimeKillingPredictionMechanism"/>
+        <Class IRI="#UsageStatePredictionMechanism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UsageStatePredictionMechanism"/>
+        <Class IRI="#TechnicalMechanism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WellbeingIntention"/>
+        <Class IRI="#InstitutionalIntention"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#StudySample"/>
+        <NamedIndividual IRI="#Chen2023_TimeKillingSample"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TimeKillingPredictionMechanism"/>
+        <NamedIndividual IRI="#GeneralFusionModel_SensorPlusScreenshot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://webprotege.stanford.edu/R9jDcz3uFj4yiQhXBTZT2jP"/>
+            <Class IRI="#ScreenshotCaptureAPI"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GeneralFusionModel_SensorPlusScreenshot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://webprotege.stanford.edu/R9jDcz3uFj4yiQhXBTZT2jP"/>
+            <Class IRI="#SensorLoggingAPI"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GeneralFusionModel_SensorPlusScreenshot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PsychometricScale"/>
+        <NamedIndividual IRI="#OWLNamedIndividualImpl_012ca55b_69a9_43a7_a17c_9dd2008872e2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ScreeningScale"/>
+        <NamedIndividual IRI="#OWLNamedIndividualImpl_012ca55b_69a9_43a7_a17c_9dd2008872e2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PsychometricScale"/>
+        <NamedIndividual IRI="#OWLNamedIndividualImpl_0cf773ab_faf3_44cd_8508_70ff1a5ad7c3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ScreeningScale"/>
+        <NamedIndividual IRI="#OWLNamedIndividualImpl_0cf773ab_faf3_44cd_8508_70ff1a5ad7c3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PsychometricScale"/>
+        <NamedIndividual IRI="#OWLNamedIndividualImpl_58ffdfcf_94ab_4335_84ec_c777ea2a1657"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QualityOfLifeInstrument"/>
+        <NamedIndividual IRI="#OWLNamedIndividualImpl_65eb2001_fb2e_4b8f_befb_860a0eadbba0"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PsychometricScale"/>
+        <NamedIndividual IRI="#OWLNamedIndividualImpl_ecf86b8d_94b8_4ecf_ae28_1615a0719435"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasNotificationAvailabilityDuringTimeKilling"/>
+        <NamedIndividual IRI="#Chen2023_TimeKillingSample"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.822</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/R9jDcz3uFj4yiQhXBTZT2jP"/>
+        <Class IRI="#TechnicalMechanism"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RCSptgyushLRLsBVpCOvNut"/>
+        <Class IRI="#TechnicalMechanism"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDJ41Inb7Pm5TLt2oIQztDa"/>
+        <Class IRI="#App"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDJ41Inb7Pm5TLt2oIQztDa"/>
+        <Class IRI="#TechnicalMechanism"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDdrbD4fdNj2WVjcfdgs7iC"/>
+        <Class IRI="#TechnicalMechanism"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#detectedBy"/>
+        <Class IRI="#UsageContext"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasUsageState"/>
+        <Class IRI="#SmartphoneUsageEpisode"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/R9jDcz3uFj4yiQhXBTZT2jP"/>
+        <Class IRI="#OSComponent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RCSptgyushLRLsBVpCOvNut"/>
+        <Class IRI="#App"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDJ41Inb7Pm5TLt2oIQztDa"/>
+        <Class IRI="#InstitutionalIntention"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDdrbD4fdNj2WVjcfdgs7iC"/>
+        <Class IRI="#PsychologicalTechnique"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#detectedBy"/>
+        <Class IRI="#TechnicalMechanism"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasUsageState"/>
+        <Class IRI="#UsageContext"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://webprotege.stanford.edu/R9QeEMtyWlVay7goiGZTmr7"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://webprotege.stanford.edu/RB0jid3rMRjxl0rowXtnyhI"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://webprotege.stanford.edu/RBU6QGFoJg2H9XwmyJIAAaW"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://webprotege.stanford.edu/R9QeEMtyWlVay7goiGZTmr7"/>
+        <Class IRI="#TechnicalMechanism"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://webprotege.stanford.edu/RB0jid3rMRjxl0rowXtnyhI"/>
+        <Class IRI="#App"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://webprotege.stanford.edu/RBU6QGFoJg2H9XwmyJIAAaW"/>
+        <Class IRI="#App"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasNotificationAvailabilityDuringTimeKilling"/>
+        <Class IRI="#SmartphoneUser"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasNotificationAvailabilityDuringTimeKilling"/>
+        <Class IRI="#StudySample"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasTimeKillingProportion"/>
+        <Class IRI="#SmartphoneUser"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="http://webprotege.stanford.edu/R9QeEMtyWlVay7goiGZTmr7"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://webprotege.stanford.edu/RB0jid3rMRjxl0rowXtnyhI"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://webprotege.stanford.edu/RBU6QGFoJg2H9XwmyJIAAaW"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasNotificationAvailabilityDuringTimeKilling"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasTimeKillingProportion"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#App</IRI>
+        <Literal xml:lang="pt-br">App</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R73gxHwYKyP6FOMjBUAvjg</IRI>
+        <IRI>measuredBy</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DailyScreenTime</IRI>
+        <IRI>DailyScreenTime</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DailyScreenTime</IRI>
+        <Literal xml:lang="en">ScreenTime</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ProductivityApp</IRI>
+        <IRI>ProductivityApp</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VariableReward</IRI>
+        <IRI>VariableReward</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NotificationChannel</IRI>
+        <IRI>NotificationChannel</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FeedAlgorithm</IRI>
+        <IRI>FeedAlgorithm</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GamificationMechanism</IRI>
+        <IRI>GamificationMechanism</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NotificationMechanism</IRI>
+        <IRI>NotificationMechanism</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#HabitLoop</IRI>
+        <IRI>HabitLoop</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/R9QeEMtyWlVay7goiGZTmr7</IRI>
+        <Literal xml:lang="pt-br">O termo &quot;addiction&quot; em hasAddictionScore e rotulo historico, nao diagnostico; ver SmartphoneAddiction (constructo contestado) para a leitura cautelosa.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/R9QeEMtyWlVay7goiGZTmr7</IRI>
+        <Literal xml:lang="pt-br">Pontuacao associada a adiccao deve ser tratada como item legado ou em revisao, sem sustentar inferencia diagnostica nesta rodada.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R9QeEMtyWlVay7goiGZTmr7</IRI>
+        <IRI>hasAddictionScore</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://webprotege.stanford.edu/R9QeEMtyWlVay7goiGZTmr7</IRI>
+        <IRI>#SmartphoneAddiction</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LockScreenMechanism</IRI>
+        <IRI>LockScreenMechanism</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R9jDcz3uFj4yiQhXBTZT2jP</IRI>
+        <IRI>implementedOn</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PsychologicalTechnique</IRI>
+        <IRI>PsychologicalTechnique</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LockScreenNotification</IRI>
+        <IRI>LockScreenNotification</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RB0jid3rMRjxl0rowXtnyhI</IRI>
+        <IRI>hasAverageSessionLengthMinutes</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OSComponent</IRI>
+        <IRI>OSComponent</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#InfiniteScrollFeed</IRI>
+        <IRI>InfiniteScrollFeed</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RBU6QGFoJg2H9XwmyJIAAaW</IRI>
+        <IRI>hasAverageDailyUseMinutes</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#InstitutionalIntention</IRI>
+        <IRI>InstitutionalIntention</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCSptgyushLRLsBVpCOvNut</IRI>
+        <IRI>employedByApp</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#HedonicApp</IRI>
+        <IRI>HedonicApp</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PushNotification</IRI>
+        <IRI>PushNotification</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RDJ41Inb7Pm5TLt2oIQztDa</IRI>
+        <IRI>aimsAtIntention</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RDdrbD4fdNj2WVjcfdgs7iC</IRI>
+        <IRI>usesTechnique</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CollectUserData</IRI>
+        <IRI>CollectUserData</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SocialNetworkApp</IRI>
+        <IRI>SocialNetworkApp</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UtilitarianApp</IRI>
+        <IRI>UtilitarianApp</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BoostInAppPurchases</IRI>
+        <IRI>BoostInAppPurchases</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FOMO</IRI>
+        <IRI>FOMO</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SocialValidation</IRI>
+        <IRI>SocialValidation</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TechnicalMechanism</IRI>
+        <IRI>TechnicalMechanism</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UsageMetric</IRI>
+        <Literal xml:lang="pt-br">UsageMetric</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IncreasedAddictiveUse</IRI>
+        <Literal xml:lang="pt-br">O termo &quot;addictive&quot; aqui e rotulo historico, nao diagnostico; ver SmartphoneAddiction (constructo contestado) para a leitura cautelosa.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IncreasedAddictiveUse</IRI>
+        <Literal xml:lang="pt-br">Termo legado ou item em revisao; nao deve virar eixo central da rodada 1 pos-psicologia.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#IncreasedAddictiveUse</IRI>
+        <IRI>#SmartphoneAddiction</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLAnnotationPropertyImpl_66ed0ed1_1c1d_4fe1_86aa_ee67b3d79c57</IRI>
+        <Literal xml:lang="pt-br">Anotacao terminologica de rotulo historico ou alternativo (afim a skos:altLabel, sem importar SKOS); direcional; nao implica equivalencia logica entre os constructos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLAnnotationPropertyImpl_66ed0ed1_1c1d_4fe1_86aa_ee67b3d79c57</IRI>
+        <Literal xml:lang="en">alternativeLabelFor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLAnnotationPropertyImpl_66ed0ed1_1c1d_4fe1_86aa_ee67b3d79c57</IRI>
+        <Literal xml:lang="pt">alternativeLabelFor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLAnnotationPropertyImpl_9634c0e0_db42_4778_a3ed_a85e061dd0e3</IRI>
+        <Literal xml:lang="pt-br">Anotacao que liga um instrumento ao constructo que ele operacionaliza (afim a uso de medida psicometrica). E annotation property: nao autoriza diagnostico nem inferencia de classe.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLAnnotationPropertyImpl_9634c0e0_db42_4778_a3ed_a85e061dd0e3</IRI>
+        <Literal xml:lang="en">measuresConstruct</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLAnnotationPropertyImpl_9634c0e0_db42_4778_a3ed_a85e061dd0e3</IRI>
+        <Literal xml:lang="pt">measuresConstruct</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLAnnotationPropertyImpl_e4482738_e252_4c29_8a84_cc7591a3ab78</IRI>
+        <Literal xml:lang="pt-br">Anotacao de sobreposicao entre constructos no nivel de extensao (afim a skos:related, sem importar SKOS); conceitualmente simetrica; nao implica equivalencia nem subClassOf.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLAnnotationPropertyImpl_e4482738_e252_4c29_8a84_cc7591a3ab78</IRI>
+        <Literal xml:lang="en">overlapsWith</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLAnnotationPropertyImpl_e4482738_e252_4c29_8a84_cc7591a3ab78</IRI>
+        <Literal xml:lang="pt">overlapsWith</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLAnnotationPropertyImpl_f03a28e3_2def_466f_a002_926fd76c40b1</IRI>
+        <Literal xml:lang="pt-br">Anotacao documental de associacao. Nao expressa causalidade, necessidade logica ou inferencia automatica.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLAnnotationPropertyImpl_f03a28e3_2def_466f_a002_926fd76c40b1</IRI>
+        <Literal xml:lang="en">associatedWith</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLAnnotationPropertyImpl_f03a28e3_2def_466f_a002_926fd76c40b1</IRI>
+        <Literal xml:lang="pt">associatedWith</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#QualityOfLifeInstrument</IRI>
+        <Literal xml:lang="pt-br">Familia de instrumentos de qualidade de vida; nao implica causalidade entre qualidade de vida e uso problematico de smartphone.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#QualityOfLifeInstrument</IRI>
+        <Literal xml:lang="en">QualityOfLifeInstrument</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#QualityOfLifeInstrument</IRI>
+        <Literal xml:lang="pt">QualityOfLifeInstrument</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BehavioralRiskSignal</IRI>
+        <Literal xml:lang="pt-br">Sinal comportamental de risco e uma hipotese operacional do prototipo, nao uma classificacao de uso problematico de smartphone.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BehavioralRiskSignal</IRI>
+        <Literal xml:lang="en">BehavioralRiskSignal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BehavioralRiskSignal</IRI>
+        <Literal xml:lang="pt">BehavioralRiskSignal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SleepProblemAssociation</IRI>
+        <Literal xml:lang="pt-br">Associacao de sono e descanso com PSU; leitura cautelosa, sem causalidade forte.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SleepProblemAssociation</IRI>
+        <Literal xml:lang="en">SleepProblemAssociation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SleepProblemAssociation</IRI>
+        <Literal xml:lang="pt">SleepProblemAssociation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#QualityOfLife</IRI>
+        <Literal xml:lang="pt-br">Constructo e desfecho funcional amplo para qualidade de vida e qualidade de vida relacionada a saude (QOL/HRQOL). Nao e sintoma, diagnostico nem efeito necessario de ProblematicSmartphoneUse.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#QualityOfLife</IRI>
+        <Literal xml:lang="en">QualityOfLife</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#QualityOfLife</IRI>
+        <Literal xml:lang="pt">QualityOfLife</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SmartphoneDistraction</IRI>
+        <Literal xml:lang="pt-br">Constructo psicologico-digital ligado a perda atencional, vigilancia online, uso do smartphone para regulacao emocional e multitarefa. Nao e diagnostico nem subtipo de ProblematicSmartphoneUse.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SmartphoneDistraction</IRI>
+        <Literal xml:lang="en">SmartphoneDistraction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SmartphoneDistraction</IRI>
+        <Literal xml:lang="pt">SmartphoneDistraction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PsychometricScale</IRI>
+        <Literal xml:lang="pt-br">Familia de escalas psicometricas; instrumento nao deve ser confundido com o constructo medido.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PsychometricScale</IRI>
+        <Literal xml:lang="en">PsychometricScale</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PsychometricScale</IRI>
+        <Literal xml:lang="pt">PsychometricScale</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NotificationCount</IRI>
+        <Literal xml:lang="pt-br">Metrica observacional de contagem de notificacoes recebidas ou exibidas; no prototipo, sustenta HighNotificationExposure sem assumir causalidade ou prejuizo automatico.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NotificationCount</IRI>
+        <Literal xml:lang="en">NotificationCount</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NotificationCount</IRI>
+        <Literal xml:lang="pt">NotificationCount</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FrequentUnlocking</IRI>
+        <Literal xml:lang="pt-br">Sinal comportamental de risco baseado em desbloqueios ou checagens frequentes; o limiar e decisao operacional do prototipo.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FrequentUnlocking</IRI>
+        <Literal xml:lang="en">FrequentUnlocking</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FrequentUnlocking</IRI>
+        <Literal xml:lang="pt">FrequentUnlocking</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LongSessionDuration</IRI>
+        <Literal xml:lang="pt-br">Sinal comportamental de risco baseado em duracao prolongada de sessoes; deve ser interpretado com contexto e recorrencia.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LongSessionDuration</IRI>
+        <Literal xml:lang="en">LongSessionDuration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LongSessionDuration</IRI>
+        <Literal xml:lang="pt">LongSessionDuration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AppUsageDuration</IRI>
+        <Literal xml:lang="pt-br">Metrica observacional de duracao de uso por aplicativo; no prototipo, sustenta LongSessionDuration sem confundir duracao com inferencia diagnostica.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AppUsageDuration</IRI>
+        <Literal xml:lang="en">AppUsageDuration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AppUsageDuration</IRI>
+        <Literal xml:lang="pt">AppUsageDuration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ProblematicUsagePattern</IRI>
+        <Literal xml:lang="en">ProblematicUsagePattern</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ProblematicUsagePattern</IRI>
+        <Literal xml:lang="pt">ProblematicUsagePattern</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SmartphoneAddiction</IRI>
+        <Literal xml:lang="pt-br">Constructo contestado e rotulo historico; nao e diagnostico clinico. Relacionado a ProblematicSmartphoneUse por sobreposicao (overlapsWith) e como rotulo alternativo (alternativeLabelFor), sem equivalencia nem subClassOf.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SmartphoneAddiction</IRI>
+        <Literal xml:lang="en">SmartphoneAddiction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SmartphoneAddiction</IRI>
+        <Literal xml:lang="pt">SmartphoneAddiction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#OWLAnnotationPropertyImpl_66ed0ed1_1c1d_4fe1_86aa_ee67b3d79c57"/>
+        <IRI>#SmartphoneAddiction</IRI>
+        <IRI>#ProblematicSmartphoneUse</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#OWLAnnotationPropertyImpl_e4482738_e252_4c29_8a84_cc7591a3ab78"/>
+        <IRI>#SmartphoneAddiction</IRI>
+        <IRI>#ProblematicSmartphoneUse</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#QualityOfLifeReduction</IRI>
+        <Literal xml:lang="pt-br">Reducao de qualidade de vida associada ao uso problematico de smartphone; nao e criterio necessario de PSU.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#QualityOfLifeReduction</IRI>
+        <Literal xml:lang="en">QualityOfLifeReduction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#QualityOfLifeReduction</IRI>
+        <Literal xml:lang="pt">QualityOfLifeReduction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ScreeningScale</IRI>
+        <Literal xml:lang="pt-br">Familia de instrumentos de rastreio; pontos de corte nao devem ser usados como diagnostico universal.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ScreeningScale</IRI>
+        <Literal xml:lang="en">ScreeningScale</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ScreeningScale</IRI>
+        <Literal xml:lang="pt">ScreeningScale</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ProblematicSocialMediaUse</IRI>
+        <Literal xml:lang="pt-br">Constructo psicologico associado a prejuizo, falha de autorregulacao, sofrimento ou uso disfuncional em redes sociais. Reconhece mediacao por plataformas de rede social, mas nao formaliza essa mediacao por App ou SocialNetworkApp nesta rodada.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ProblematicSocialMediaUse</IRI>
+        <Literal xml:lang="en">ProblematicSocialMediaUse</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ProblematicSocialMediaUse</IRI>
+        <Literal xml:lang="pt">ProblematicSocialMediaUse</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#OWLAnnotationPropertyImpl_e4482738_e252_4c29_8a84_cc7591a3ab78"/>
+        <IRI>#ProblematicSocialMediaUse</IRI>
+        <IRI>#ProblematicSmartphoneUse</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AssistiveSelfRegulationAction</IRI>
+        <Literal xml:lang="pt-br">Acao apoiada pelo prototipo e confirmada pelo usuario; nao representa acao autonoma, bloqueio coercitivo ou alteracao sem consentimento.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AssistiveSelfRegulationAction</IRI>
+        <Literal xml:lang="en">AssistiveSelfRegulationAction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AssistiveSelfRegulationAction</IRI>
+        <Literal xml:lang="pt">AssistiveSelfRegulationAction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SelfRegulationAlert</IRI>
+        <Literal xml:lang="en">SelfRegulationAlert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SelfRegulationAlert</IRI>
+        <Literal xml:lang="pt">SelfRegulationAlert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UnlockFrequency</IRI>
+        <Literal xml:lang="pt-br">Metrica observacional de frequencia de desbloqueios ou checagens; no prototipo, sustenta FrequentUnlocking sem transformar um unico valor em diagnostico.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UnlockFrequency</IRI>
+        <Literal xml:lang="en">UnlockFrequency</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UnlockFrequency</IRI>
+        <Literal xml:lang="pt">UnlockFrequency</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MeasurementInstrument</IRI>
+        <Literal xml:lang="pt-br">Instrumentos de mensuracao incluem escalas e questionarios, mas esses instrumentos nao serao aplicados no prototipo do TCC II.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MeasurementInstrument</IRI>
+        <Literal xml:lang="en">MeasurementInstrument</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MeasurementInstrument</IRI>
+        <Literal xml:lang="pt">MeasurementInstrument</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FunctionalHarm</IRI>
+        <Literal xml:lang="pt-br">Prejuizo funcional ou desfecho negativo associado ao uso problematico de smartphone; nao e causalidade forte nem diagnostico.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FunctionalHarm</IRI>
+        <Literal xml:lang="en">FunctionalHarm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FunctionalHarm</IRI>
+        <Literal xml:lang="pt">FunctionalHarm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EmotionDysregulation</IRI>
+        <Literal xml:lang="pt-br">Dificuldade de regular emocoes associada a ProblematicSmartphoneUse na literatura, sem direcao causal assumida. Nao e diagnostico nem criterio suficiente de PSU.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EmotionDysregulation</IRI>
+        <Literal xml:lang="en">EmotionDysregulation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EmotionDysregulation</IRI>
+        <Literal xml:lang="pt">EmotionDysregulation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PatternExplanation</IRI>
+        <Literal xml:lang="pt-br">Explicacao interpretavel de sinais ou padroes observados; nao deve apresentar diagnostico nem julgamento normativo sem evidencia.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PatternExplanation</IRI>
+        <Literal xml:lang="en">PatternExplanation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PatternExplanation</IRI>
+        <Literal xml:lang="pt">PatternExplanation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HighScreenTime</IRI>
+        <Literal xml:lang="pt-br">Sinal comportamental de risco baseado em tempo de tela elevado; nao e diagnostico de uso problematico de smartphone.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#HighScreenTime</IRI>
+        <Literal xml:lang="en">HighScreenTime</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#HighScreenTime</IRI>
+        <Literal xml:lang="pt">HighScreenTime</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PossibleProblematicUsagePattern</IRI>
+        <Literal xml:lang="pt-br">Hipotese analitica sustentada por multiplos sinais, contexto e recorrencia; nao equivale a ProblematicSmartphoneUse confirmado.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PossibleProblematicUsagePattern</IRI>
+        <Literal xml:lang="en">PossibleProblematicUsagePattern</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PossibleProblematicUsagePattern</IRI>
+        <Literal xml:lang="pt">PossibleProblematicUsagePattern</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AcademicPerformanceLoss</IRI>
+        <Literal xml:lang="pt-br">Perda de desempenho academico associada ao uso problematico de smartphone; nao e sintoma suficiente de PSU.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AcademicPerformanceLoss</IRI>
+        <Literal xml:lang="en">AcademicPerformanceLoss</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AcademicPerformanceLoss</IRI>
+        <Literal xml:lang="pt">AcademicPerformanceLoss</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PassiveUsageMetric</IRI>
+        <Literal xml:lang="pt-br">Metrica de uso passiva e uma medida observacional registrada pelo dispositivo, sistema operacional ou aplicativo, nao um instrumento psicometrico.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PassiveUsageMetric</IRI>
+        <Literal xml:lang="en">PassiveUsageMetric</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PassiveUsageMetric</IRI>
+        <Literal xml:lang="pt">PassiveUsageMetric</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HighNotificationExposure</IRI>
+        <Literal xml:lang="pt-br">Sinal comportamental de risco baseado em exposicao elevada a notificacoes; nao afirma causalidade forte nem prejuizo subjetivo.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#HighNotificationExposure</IRI>
+        <Literal xml:lang="en">HighNotificationExposure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#HighNotificationExposure</IRI>
+        <Literal xml:lang="pt">HighNotificationExposure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ContestedConstruct</IRI>
+        <Literal xml:lang="pt-br">Categoria de topo para constructos contestados ou em disputa na literatura; deve ser lida com cautela e nao constitui diagnostico. Ramo separado dos padroes de comportamento.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ContestedConstruct</IRI>
+        <Literal xml:lang="en">ContestedConstruct</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ContestedConstruct</IRI>
+        <Literal xml:lang="pt">ContestedConstruct</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ProblematicSmartphoneUse</IRI>
+        <Literal xml:lang="pt-br">Uso problematico de smartphone nao e diagnostico clinico nem deve ser inferido por metrica isolada.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ProblematicSmartphoneUse</IRI>
+        <Literal xml:lang="en">ProblematicSmartphoneUse</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ProblematicSmartphoneUse</IRI>
+        <Literal xml:lang="pt">ProblematicSmartphoneUse</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#OWLAnnotationPropertyImpl_f03a28e3_2def_466f_a002_926fd76c40b1"/>
+        <IRI>#ProblematicSmartphoneUse</IRI>
+        <IRI>#SleepProblemAssociation</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#OWLAnnotationPropertyImpl_f03a28e3_2def_466f_a002_926fd76c40b1"/>
+        <IRI>#ProblematicSmartphoneUse</IRI>
+        <IRI>#QualityOfLifeReduction</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#OWLAnnotationPropertyImpl_f03a28e3_2def_466f_a002_926fd76c40b1"/>
+        <IRI>#ProblematicSmartphoneUse</IRI>
+        <IRI>#FunctionalHarm</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#OWLAnnotationPropertyImpl_f03a28e3_2def_466f_a002_926fd76c40b1"/>
+        <IRI>#ProblematicSmartphoneUse</IRI>
+        <IRI>#AcademicPerformanceLoss</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BehaviorPattern</IRI>
+        <Literal xml:lang="en">BehaviorPattern</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BehaviorPattern</IRI>
+        <Literal xml:lang="pt">BehaviorPattern</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLNamedIndividualImpl_012ca55b_69a9_43a7_a17c_9dd2008872e2</IRI>
+        <Literal xml:lang="pt-br">Smartphone Addiction Scale como instrumento especifico; o termo addiction permanece historico/contestavel e nao autoriza diagnostico clinico.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividualImpl_012ca55b_69a9_43a7_a17c_9dd2008872e2</IRI>
+        <Literal xml:lang="en">SAS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividualImpl_012ca55b_69a9_43a7_a17c_9dd2008872e2</IRI>
+        <Literal xml:lang="pt">SAS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#OWLAnnotationPropertyImpl_9634c0e0_db42_4778_a3ed_a85e061dd0e3"/>
+        <IRI>#OWLNamedIndividualImpl_012ca55b_69a9_43a7_a17c_9dd2008872e2</IRI>
+        <IRI>#SmartphoneAddiction</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLNamedIndividualImpl_0cf773ab_faf3_44cd_8508_70ff1a5ad7c3</IRI>
+        <Literal xml:lang="pt-br">Smartphone Addiction Scale - Short Version como instrumento especifico de triagem; pontos de corte exigem validacao contextual.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividualImpl_0cf773ab_faf3_44cd_8508_70ff1a5ad7c3</IRI>
+        <Literal xml:lang="en">SAS-SV</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividualImpl_0cf773ab_faf3_44cd_8508_70ff1a5ad7c3</IRI>
+        <Literal xml:lang="pt">SAS-SV</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#OWLAnnotationPropertyImpl_9634c0e0_db42_4778_a3ed_a85e061dd0e3"/>
+        <IRI>#OWLNamedIndividualImpl_0cf773ab_faf3_44cd_8508_70ff1a5ad7c3</IRI>
+        <IRI>#SmartphoneAddiction</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLNamedIndividualImpl_58ffdfcf_94ab_4335_84ec_c777ea2a1657</IRI>
+        <Literal xml:lang="pt-br">DERS como instrumento especifico de desregulacao emocional; associacao com PSU nao implica causalidade.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividualImpl_58ffdfcf_94ab_4335_84ec_c777ea2a1657</IRI>
+        <Literal xml:lang="en">DERS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividualImpl_58ffdfcf_94ab_4335_84ec_c777ea2a1657</IRI>
+        <Literal xml:lang="pt">DERS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#OWLAnnotationPropertyImpl_9634c0e0_db42_4778_a3ed_a85e061dd0e3"/>
+        <IRI>#OWLNamedIndividualImpl_58ffdfcf_94ab_4335_84ec_c777ea2a1657</IRI>
+        <IRI>#EmotionDysregulation</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLNamedIndividualImpl_65eb2001_fb2e_4b8f_befb_860a0eadbba0</IRI>
+        <Literal xml:lang="pt-br">WHOQOL como instrumento de qualidade de vida; nao sera aplicado no prototipo TCC II.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividualImpl_65eb2001_fb2e_4b8f_befb_860a0eadbba0</IRI>
+        <Literal xml:lang="en">WHOQOL</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividualImpl_65eb2001_fb2e_4b8f_befb_860a0eadbba0</IRI>
+        <Literal xml:lang="pt">WHOQOL</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#OWLAnnotationPropertyImpl_9634c0e0_db42_4778_a3ed_a85e061dd0e3"/>
+        <IRI>#OWLNamedIndividualImpl_65eb2001_fb2e_4b8f_befb_860a0eadbba0</IRI>
+        <IRI>#QualityOfLife</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLNamedIndividualImpl_ecf86b8d_94b8_4ecf_ae28_1615a0719435</IRI>
+        <Literal xml:lang="pt-br">Smartphone Distraction Scale como instrumento especifico de distracao por smartphone, nao diagnostico de PSU.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividualImpl_ecf86b8d_94b8_4ecf_ae28_1615a0719435</IRI>
+        <Literal xml:lang="en">SDS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividualImpl_ecf86b8d_94b8_4ecf_ae28_1615a0719435</IRI>
+        <Literal xml:lang="pt">SDS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#OWLAnnotationPropertyImpl_9634c0e0_db42_4778_a3ed_a85e061dd0e3"/>
+        <IRI>#OWLNamedIndividualImpl_ecf86b8d_94b8_4ecf_ae28_1615a0719435</IRI>
+        <IRI>#SmartphoneDistraction</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLObjectPropertyImpl_0689f139_fbc0_4fdd_b539_fa36d0c8ba3e</IRI>
+        <Literal xml:lang="pt-br">Relacao cautelosa entre sinal comportamental e metrica/evidencia operacional; nao liga metrica a diagnostico.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectPropertyImpl_0689f139_fbc0_4fdd_b539_fa36d0c8ba3e</IRI>
+        <Literal xml:lang="en">derivedFrom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectPropertyImpl_0689f139_fbc0_4fdd_b539_fa36d0c8ba3e</IRI>
+        <Literal xml:lang="pt">derivedFrom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLObjectPropertyImpl_72f72aa1_41d0_4eae_8aa9_6dcf1be858db</IRI>
+        <Literal xml:lang="pt-br">Relacao cautelosa entre sinal e alerta leve; nao obriga intervencao automatica ou coercitiva.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectPropertyImpl_72f72aa1_41d0_4eae_8aa9_6dcf1be858db</IRI>
+        <Literal xml:lang="en">triggersAlert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectPropertyImpl_72f72aa1_41d0_4eae_8aa9_6dcf1be858db</IRI>
+        <Literal xml:lang="pt">triggersAlert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLObjectPropertyImpl_a9417789_6db9_4d8b_a081_949b5434e641</IRI>
+        <Literal xml:lang="pt-br">Relacao cautelosa entre alerta e acao assistiva; a acao depende de confirmacao do usuario.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectPropertyImpl_a9417789_6db9_4d8b_a081_949b5434e641</IRI>
+        <Literal xml:lang="en">suggestsAssistiveAction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectPropertyImpl_a9417789_6db9_4d8b_a081_949b5434e641</IRI>
+        <Literal xml:lang="pt">suggestsAssistiveAction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ReducedHabitualOrAddictiveUseOutcome</IRI>
+        <Literal xml:lang="pt-br">O termo &quot;addictive&quot; aqui e rotulo historico, nao diagnostico; ver SmartphoneAddiction (constructo contestado) para a leitura cautelosa.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ReducedHabitualOrAddictiveUseOutcome</IRI>
+        <Literal xml:lang="pt-br">Termo legado ou item em revisao; nao deve virar eixo central da rodada 1 pos-psicologia.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#ReducedHabitualOrAddictiveUseOutcome</IRI>
+        <IRI>#SmartphoneAddiction</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SessionLength</IRI>
+        <Literal xml:lang="en">SessionDuration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TimeKillingPredictionMechanism</IRI>
+        <Literal xml:lang="pt-br">Algoritmos que predizem se um episodio de uso atual e para matar tempo ou nao, a partir de dados de sensor e/ou tela. Baseado em Chen et al. (2023).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
+        <IRI>#UsageContext</IRI>
+        <Literal xml:lang="en">Are You Killing Time? Predicting Smartphone Users&apos; Time-killing Moments via Fusion of Smartphone Sensor Data and Screenshots</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#detectedBy</IRI>
+        <Literal xml:lang="pt-br">detectaEstadoDeUso</Literal>
+    </AnnotationAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OWLObjectPropertyImpl_0689f139_fbc0_4fdd_b539_fa36d0c8ba3e"/>
+        <Class IRI="#BehavioralRiskSignal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OWLObjectPropertyImpl_0689f139_fbc0_4fdd_b539_fa36d0c8ba3e"/>
+        <Class IRI="#PassiveUsageMetric"/>
+    </ObjectPropertyRange>
+    <SubClassOf>
+        <Class IRI="#HighScreenTime"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OWLObjectPropertyImpl_0689f139_fbc0_4fdd_b539_fa36d0c8ba3e"/>
+            <Class IRI="#DailyScreenTime"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LongSessionDuration"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OWLObjectPropertyImpl_0689f139_fbc0_4fdd_b539_fa36d0c8ba3e"/>
+            <Class IRI="#SessionLength"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HighNotificationExposure"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OWLObjectPropertyImpl_0689f139_fbc0_4fdd_b539_fa36d0c8ba3e"/>
+            <Class IRI="#NotificationCount"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FrequentUnlocking"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OWLObjectPropertyImpl_0689f139_fbc0_4fdd_b539_fa36d0c8ba3e"/>
+            <Class IRI="#UnlockFrequency"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->

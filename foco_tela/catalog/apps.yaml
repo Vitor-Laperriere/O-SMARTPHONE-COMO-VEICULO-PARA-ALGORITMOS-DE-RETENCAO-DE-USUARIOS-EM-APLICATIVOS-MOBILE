@@ -1,0 +1,367 @@
+catalog:
+  version: 2026-06-21-v2
+  owx_iri: urn:webprotege:ontology:7543882f-929e-4586-bf29-1f3930cfc5f2
+  owx_version: 2026-06-14
+apps:
+  - package_name: com.instagram.android
+    display_name: Instagram
+    sample_group: retention_social
+    psychological_technique: null
+    institutional_intention: null
+    technical_mechanisms:
+      - iri: FeedAlgorithm
+        label: Feed Algorithm
+        contextual_role: retention
+        evidence_refs:
+          - retention_social_sample_selection
+          - instagram_play_listing
+      - iri: InfiniteScrollFeed
+        label: Infinite Scroll Feed
+        contextual_role: retention
+        evidence_refs:
+          - retention_social_sample_selection
+          - instagram_play_listing
+      - iri: SocialValidation
+        label: Social Validation
+        contextual_role: retention
+        evidence_refs:
+          - retention_social_sample_selection
+          - instagram_play_listing
+    psychological_techniques:
+      - iri: SocialValidation
+        label: Validação social
+        contextual_role: retention
+        relation: usesTechnique via SocialValidation mechanism
+        scope: app_specific_catalog_association
+        caution: Associação curada por descrição pública e amostra do TCC; não prova intenção causal nem efeito individual.
+        evidence_refs:
+          - retention_social_sample_selection
+          - instagram_play_listing
+    institutional_intentions:
+      - iri: EngagementIntention
+        label: Intenção de engajamento
+        contextual_role: retention
+        relation: aimsAtIntention via FeedAlgorithm and SocialValidation
+        scope: app_specific_catalog_association
+        caution: Leitura institucional exploratória baseada em funcionalidade pública; não diagnostica dependência nem intenção psicológica individual.
+        evidence_refs:
+          - retention_social_sample_selection
+          - instagram_play_listing
+    os_components: []
+  - package_name: com.zhiliaoapp.musically
+    display_name: TikTok
+    sample_group: retention_social
+    psychological_technique: null
+    institutional_intention: null
+    technical_mechanisms:
+      - iri: FeedAlgorithm
+        label: Feed Algorithm
+        contextual_role: retention
+        evidence_refs:
+          - retention_social_sample_selection
+          - tiktok_play_listing
+      - iri: InfiniteScrollFeed
+        label: Infinite Scroll Feed
+        contextual_role: retention
+        evidence_refs:
+          - retention_social_sample_selection
+          - tiktok_play_listing
+      - iri: VariableReward
+        label: Variable Reward
+        contextual_role: retention
+        evidence_refs:
+          - retention_social_sample_selection
+          - tiktok_play_listing
+    psychological_techniques:
+      - iri: VariableReward
+        label: Recompensa variável
+        contextual_role: retention
+        relation: usesTechnique via VariableReward mechanism
+        scope: app_specific_catalog_association
+        caution: Associação curada por descrição pública e amostra do TCC; não infere motivação do usuário nem causalidade.
+        evidence_refs:
+          - retention_social_sample_selection
+          - tiktok_play_listing
+    institutional_intentions:
+      - iri: EngagementIntention
+        label: Intenção de engajamento
+        contextual_role: retention
+        relation: aimsAtIntention via FeedAlgorithm and VariableReward
+        scope: app_specific_catalog_association
+        caution: A intenção é categoria analítica exploratória do catálogo, não uma afirmação sobre conduta institucional específica.
+        evidence_refs:
+          - retention_social_sample_selection
+          - tiktok_play_listing
+    os_components: []
+  - package_name: com.google.android.youtube
+    display_name: YouTube
+    sample_group: retention_social
+    psychological_technique: null
+    institutional_intention: null
+    technical_mechanisms:
+      - iri: FeedAlgorithm
+        label: Feed Algorithm
+        contextual_role: retention
+        evidence_refs:
+          - retention_social_sample_selection
+          - youtube_play_listing
+      - iri: InfiniteScrollFeed
+        label: Infinite Scroll Feed
+        contextual_role: retention
+        evidence_refs:
+          - retention_social_sample_selection
+          - youtube_play_listing
+      - iri: VariableReward
+        label: Variable Reward
+        contextual_role: retention
+        evidence_refs:
+          - retention_social_sample_selection
+          - youtube_play_listing
+    os_components: []
+  - package_name: com.twitter.android
+    display_name: X
+    sample_group: retention_social
+    psychological_technique: null
+    institutional_intention: null
+    technical_mechanisms:
+      - iri: FeedAlgorithm
+        label: Feed Algorithm
+        contextual_role: retention
+        evidence_refs:
+          - retention_social_sample_selection
+          - x_play_listing
+      - iri: FOMO
+        label: FOMO
+        contextual_role: retention
+        evidence_refs:
+          - retention_social_sample_selection
+          - x_play_listing
+      - iri: SocialValidation
+        label: Social Validation
+        contextual_role: retention
+        evidence_refs:
+          - retention_social_sample_selection
+          - x_play_listing
+    os_components: []
+  - package_name: com.facebook.katana
+    display_name: Facebook
+    sample_group: retention_social
+    psychological_technique: null
+    institutional_intention: null
+    technical_mechanisms:
+      - iri: FeedAlgorithm
+        label: Feed Algorithm
+        contextual_role: retention
+        evidence_refs:
+          - retention_social_sample_selection
+          - facebook_play_listing
+      - iri: SocialValidation
+        label: Social Validation
+        contextual_role: retention
+        evidence_refs:
+          - retention_social_sample_selection
+          - facebook_play_listing
+    os_components:
+      - iri: PushNotification
+        label: Push Notification
+        contextual_role: retention
+        evidence_refs:
+          - retention_social_sample_selection
+          - facebook_play_listing
+  - package_name: com.instagram.barcelona
+    display_name: Threads
+    sample_group: retention_social
+    psychological_technique: null
+    institutional_intention: null
+    technical_mechanisms:
+      - iri: FeedAlgorithm
+        label: Feed Algorithm
+        contextual_role: retention
+        evidence_refs:
+          - retention_social_sample_selection
+          - threads_play_listing
+      - iri: SocialValidation
+        label: Social Validation
+        contextual_role: retention
+        evidence_refs:
+          - retention_social_sample_selection
+          - threads_play_listing
+    os_components:
+      - iri: PushNotification
+        label: Push Notification
+        contextual_role: retention
+        evidence_refs:
+          - retention_social_sample_selection
+          - threads_play_listing
+  - package_name: com.whatsapp
+    display_name: WhatsApp
+    sample_group: mixed
+    psychological_technique: null
+    institutional_intention: null
+    technical_mechanisms:
+      - iri: NotificationChannel
+        label: Notification Channel
+        contextual_role: utility
+        evidence_refs:
+          - mixed_sample_selection
+          - whatsapp_play_listing
+    os_components:
+      - iri: PushNotification
+        label: Push Notification
+        contextual_role: utility
+        evidence_refs:
+          - mixed_sample_selection
+          - whatsapp_play_listing
+  - package_name: com.openai.chatgpt
+    display_name: ChatGPT
+    sample_group: mixed
+    psychological_technique: null
+    institutional_intention: null
+    technical_mechanisms: []
+    os_components: []
+  - package_name: com.mercadolibre
+    display_name: Mercado Livre
+    sample_group: mixed
+    psychological_technique: null
+    institutional_intention: null
+    technical_mechanisms:
+      - iri: VariableReward
+        label: Variable Reward
+        contextual_role: retention
+        evidence_refs:
+          - mixed_sample_selection
+          - mercado_livre_play_listing
+    os_components:
+      - iri: PushNotification
+        label: Push Notification
+        contextual_role: utility
+        evidence_refs:
+          - mixed_sample_selection
+          - mercado_livre_play_listing
+  - package_name: com.shopee.br
+    display_name: Shopee
+    sample_group: mixed
+    psychological_technique: null
+    institutional_intention: null
+    technical_mechanisms:
+      - iri: VariableReward
+        label: Variable Reward
+        contextual_role: retention
+        evidence_refs:
+          - mixed_sample_selection
+          - shopee_play_listing
+    psychological_techniques:
+      - iri: VariableReward
+        label: Recompensa variável
+        contextual_role: retention
+        relation: usesTechnique via VariableReward mechanism
+        scope: app_specific_catalog_association
+        caution: Associação curada por ofertas e cupons descritos publicamente; não mede impulso de compra individual.
+        evidence_refs:
+          - mixed_sample_selection
+          - shopee_play_listing
+    institutional_intentions:
+      - iri: BoostInAppPurchases
+        label: Estímulo a compras no app
+        contextual_role: retention
+        relation: aimsAtIntention via VariableReward
+        scope: app_specific_catalog_association
+        caution: Leitura exploratória do catálogo para compras no app; não representa diagnóstico comportamental do usuário.
+        evidence_refs:
+          - mixed_sample_selection
+          - shopee_play_listing
+    os_components:
+      - iri: PushNotification
+        label: Push Notification
+        contextual_role: utility
+        evidence_refs:
+          - mixed_sample_selection
+          - shopee_play_listing
+  - package_name: com.lemon.lvoverseas
+    display_name: CapCut
+    sample_group: mixed
+    psychological_technique: null
+    institutional_intention: null
+    technical_mechanisms:
+      - iri: SocialValidation
+        label: Social Validation
+        contextual_role: undetermined
+        evidence_refs:
+          - mixed_sample_selection
+          - capcut_play_listing
+    os_components: []
+  - package_name: com.google.android.gm
+    display_name: Gmail
+    sample_group: utility
+    psychological_technique: null
+    institutional_intention: null
+    technical_mechanisms:
+      - iri: NotificationChannel
+        label: Notification Channel
+        contextual_role: utility
+        evidence_refs:
+          - utility_sample_selection
+          - gmail_play_listing
+    os_components:
+      - iri: PushNotification
+        label: Push Notification
+        contextual_role: utility
+        evidence_refs:
+          - utility_sample_selection
+          - gmail_play_listing
+  - package_name: com.google.android.apps.maps
+    display_name: Google Maps
+    sample_group: utility
+    psychological_technique: null
+    institutional_intention: null
+    technical_mechanisms:
+      - iri: NotificationChannel
+        label: Notification Channel
+        contextual_role: utility
+        evidence_refs:
+          - utility_sample_selection
+          - google_maps_play_listing
+    os_components: []
+  - package_name: br.com.intermedium
+    display_name: Inter
+    sample_group: utility
+    psychological_technique: null
+    institutional_intention: null
+    technical_mechanisms:
+      - iri: NotificationChannel
+        label: Notification Channel
+        contextual_role: undetermined
+        evidence_refs:
+          - utility_sample_selection
+    os_components: []
+  - package_name: br.gov.meugovbr
+    display_name: gov.br
+    sample_group: utility
+    psychological_technique: null
+    institutional_intention: null
+    technical_mechanisms:
+      - iri: NotificationChannel
+        label: Notification Channel
+        contextual_role: undetermined
+        evidence_refs:
+          - utility_sample_selection
+    os_components: []
+  - package_name: com.waze
+    display_name: Waze
+    sample_group: utility
+    psychological_technique: null
+    institutional_intention: null
+    technical_mechanisms:
+      - iri: LockScreenNotification
+        label: Lock Screen Notification
+        contextual_role: utility
+        evidence_refs:
+          - utility_sample_selection
+          - waze_play_listing
+    os_components:
+      - iri: PushNotification
+        label: Push Notification
+        contextual_role: utility
+        evidence_refs:
+          - utility_sample_selection
+          - waze_play_listing

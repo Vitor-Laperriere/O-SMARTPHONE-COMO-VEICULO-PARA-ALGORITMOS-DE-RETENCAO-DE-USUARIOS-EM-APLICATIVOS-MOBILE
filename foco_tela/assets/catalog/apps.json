@@ -1,0 +1,822 @@
+{
+  "header": {
+    "version": "2026-06-21-v2",
+    "owx_iri": "urn:webprotege:ontology:7543882f-929e-4586-bf29-1f3930cfc5f2",
+    "owx_version": "2026-06-14",
+    "owx_commit": "unknown",
+    "owx_hash": "219569fa4fc015e7d4fc67cd933eb13aa450358135622977569a97a3fba12cd7"
+  },
+  "apps": [
+    {
+      "package_name": "com.instagram.android",
+      "display_name": "Instagram",
+      "sample_group": "retention_social",
+      "psychological_technique": null,
+      "institutional_intention": null,
+      "technical_mechanisms": [
+        {
+          "kind": "technical_mechanism",
+          "iri": "FeedAlgorithm",
+          "label": "Feed Algorithm",
+          "contextual_role": "retention",
+          "confidence": "medium",
+          "evidence_refs": [
+            "retention_social_sample_selection",
+            "instagram_play_listing"
+          ]
+        },
+        {
+          "kind": "technical_mechanism",
+          "iri": "InfiniteScrollFeed",
+          "label": "Infinite Scroll Feed",
+          "contextual_role": "retention",
+          "confidence": "medium",
+          "evidence_refs": [
+            "retention_social_sample_selection",
+            "instagram_play_listing"
+          ]
+        },
+        {
+          "kind": "technical_mechanism",
+          "iri": "SocialValidation",
+          "label": "Social Validation",
+          "contextual_role": "retention",
+          "confidence": "medium",
+          "evidence_refs": [
+            "retention_social_sample_selection",
+            "instagram_play_listing"
+          ]
+        }
+      ],
+      "os_components": [],
+      "psychological_techniques": [
+        {
+          "kind": "psychological_technique",
+          "iri": "SocialValidation",
+          "label": "Validação social",
+          "contextual_role": "retention",
+          "confidence": "medium",
+          "evidence_refs": [
+            "retention_social_sample_selection",
+            "instagram_play_listing"
+          ],
+          "relation": "usesTechnique via SocialValidation mechanism",
+          "scope": "app_specific_catalog_association",
+          "caution": "Associação curada por descrição pública e amostra do TCC; não prova intenção causal nem efeito individual."
+        }
+      ],
+      "institutional_intentions": [
+        {
+          "kind": "institutional_intention",
+          "iri": "EngagementIntention",
+          "label": "Intenção de engajamento",
+          "contextual_role": "retention",
+          "confidence": "medium",
+          "evidence_refs": [
+            "retention_social_sample_selection",
+            "instagram_play_listing"
+          ],
+          "relation": "aimsAtIntention via FeedAlgorithm and SocialValidation",
+          "scope": "app_specific_catalog_association",
+          "caution": "Leitura institucional exploratória baseada em funcionalidade pública; não diagnostica dependência nem intenção psicológica individual."
+        }
+      ]
+    },
+    {
+      "package_name": "com.zhiliaoapp.musically",
+      "display_name": "TikTok",
+      "sample_group": "retention_social",
+      "psychological_technique": null,
+      "institutional_intention": null,
+      "technical_mechanisms": [
+        {
+          "kind": "technical_mechanism",
+          "iri": "FeedAlgorithm",
+          "label": "Feed Algorithm",
+          "contextual_role": "retention",
+          "confidence": "medium",
+          "evidence_refs": [
+            "retention_social_sample_selection",
+            "tiktok_play_listing"
+          ]
+        },
+        {
+          "kind": "technical_mechanism",
+          "iri": "InfiniteScrollFeed",
+          "label": "Infinite Scroll Feed",
+          "contextual_role": "retention",
+          "confidence": "medium",
+          "evidence_refs": [
+            "retention_social_sample_selection",
+            "tiktok_play_listing"
+          ]
+        },
+        {
+          "kind": "technical_mechanism",
+          "iri": "VariableReward",
+          "label": "Variable Reward",
+          "contextual_role": "retention",
+          "confidence": "medium",
+          "evidence_refs": [
+            "retention_social_sample_selection",
+            "tiktok_play_listing"
+          ]
+        }
+      ],
+      "os_components": [],
+      "psychological_techniques": [
+        {
+          "kind": "psychological_technique",
+          "iri": "VariableReward",
+          "label": "Recompensa variável",
+          "contextual_role": "retention",
+          "confidence": "medium",
+          "evidence_refs": [
+            "retention_social_sample_selection",
+            "tiktok_play_listing"
+          ],
+          "relation": "usesTechnique via VariableReward mechanism",
+          "scope": "app_specific_catalog_association",
+          "caution": "Associação curada por descrição pública e amostra do TCC; não infere motivação do usuário nem causalidade."
+        }
+      ],
+      "institutional_intentions": [
+        {
+          "kind": "institutional_intention",
+          "iri": "EngagementIntention",
+          "label": "Intenção de engajamento",
+          "contextual_role": "retention",
+          "confidence": "medium",
+          "evidence_refs": [
+            "retention_social_sample_selection",
+            "tiktok_play_listing"
+          ],
+          "relation": "aimsAtIntention via FeedAlgorithm and VariableReward",
+          "scope": "app_specific_catalog_association",
+          "caution": "A intenção é categoria analítica exploratória do catálogo, não uma afirmação sobre conduta institucional específica."
+        }
+      ]
+    },
+    {
+      "package_name": "com.google.android.youtube",
+      "display_name": "YouTube",
+      "sample_group": "retention_social",
+      "psychological_technique": null,
+      "institutional_intention": null,
+      "technical_mechanisms": [
+        {
+          "kind": "technical_mechanism",
+          "iri": "FeedAlgorithm",
+          "label": "Feed Algorithm",
+          "contextual_role": "retention",
+          "confidence": "medium",
+          "evidence_refs": [
+            "retention_social_sample_selection",
+            "youtube_play_listing"
+          ]
+        },
+        {
+          "kind": "technical_mechanism",
+          "iri": "InfiniteScrollFeed",
+          "label": "Infinite Scroll Feed",
+          "contextual_role": "retention",
+          "confidence": "medium",
+          "evidence_refs": [
+            "retention_social_sample_selection",
+            "youtube_play_listing"
+          ]
+        },
+        {
+          "kind": "technical_mechanism",
+          "iri": "VariableReward",
+          "label": "Variable Reward",
+          "contextual_role": "retention",
+          "confidence": "medium",
+          "evidence_refs": [
+            "retention_social_sample_selection",
+            "youtube_play_listing"
+          ]
+        }
+      ],
+      "os_components": [],
+      "psychological_techniques": [],
+      "institutional_intentions": []
+    },
+    {
+      "package_name": "com.twitter.android",
+      "display_name": "X",
+      "sample_group": "retention_social",
+      "psychological_technique": null,
+      "institutional_intention": null,
+      "technical_mechanisms": [
+        {
+          "kind": "technical_mechanism",
+          "iri": "FeedAlgorithm",
+          "label": "Feed Algorithm",
+          "contextual_role": "retention",
+          "confidence": "medium",
+          "evidence_refs": [
+            "retention_social_sample_selection",
+            "x_play_listing"
+          ]
+        },
+        {
+          "kind": "technical_mechanism",
+          "iri": "FOMO",
+          "label": "FOMO",
+          "contextual_role": "retention",
+          "confidence": "medium",
+          "evidence_refs": [
+            "retention_social_sample_selection",
+            "x_play_listing"
+          ]
+        },
+        {
+          "kind": "technical_mechanism",
+          "iri": "SocialValidation",
+          "label": "Social Validation",
+          "contextual_role": "retention",
+          "confidence": "medium",
+          "evidence_refs": [
+            "retention_social_sample_selection",
+            "x_play_listing"
+          ]
+        }
+      ],
+      "os_components": [],
+      "psychological_techniques": [],
+      "institutional_intentions": []
+    },
+    {
+      "package_name": "com.facebook.katana",
+      "display_name": "Facebook",
+      "sample_group": "retention_social",
+      "psychological_technique": null,
+      "institutional_intention": null,
+      "technical_mechanisms": [
+        {
+          "kind": "technical_mechanism",
+          "iri": "FeedAlgorithm",
+          "label": "Feed Algorithm",
+          "contextual_role": "retention",
+          "confidence": "medium",
+          "evidence_refs": [
+            "retention_social_sample_selection",
+            "facebook_play_listing"
+          ]
+        },
+        {
+          "kind": "technical_mechanism",
+          "iri": "SocialValidation",
+          "label": "Social Validation",
+          "contextual_role": "retention",
+          "confidence": "medium",
+          "evidence_refs": [
+            "retention_social_sample_selection",
+            "facebook_play_listing"
+          ]
+        }
+      ],
+      "os_components": [
+        {
+          "kind": "os_component",
+          "iri": "PushNotification",
+          "label": "Push Notification",
+          "contextual_role": "retention",
+          "confidence": "medium",
+          "evidence_refs": [
+            "retention_social_sample_selection",
+            "facebook_play_listing"
+          ]
+        }
+      ],
+      "psychological_techniques": [],
+      "institutional_intentions": []
+    },
+    {
+      "package_name": "com.instagram.barcelona",
+      "display_name": "Threads",
+      "sample_group": "retention_social",
+      "psychological_technique": null,
+      "institutional_intention": null,
+      "technical_mechanisms": [
+        {
+          "kind": "technical_mechanism",
+          "iri": "FeedAlgorithm",
+          "label": "Feed Algorithm",
+          "contextual_role": "retention",
+          "confidence": "medium",
+          "evidence_refs": [
+            "retention_social_sample_selection",
+            "threads_play_listing"
+          ]
+        },
+        {
+          "kind": "technical_mechanism",
+          "iri": "SocialValidation",
+          "label": "Social Validation",
+          "contextual_role": "retention",
+          "confidence": "medium",
+          "evidence_refs": [
+            "retention_social_sample_selection",
+            "threads_play_listing"
+          ]
+        }
+      ],
+      "os_components": [
+        {
+          "kind": "os_component",
+          "iri": "PushNotification",
+          "label": "Push Notification",
+          "contextual_role": "retention",
+          "confidence": "medium",
+          "evidence_refs": [
+            "retention_social_sample_selection",
+            "threads_play_listing"
+          ]
+        }
+      ],
+      "psychological_techniques": [],
+      "institutional_intentions": []
+    },
+    {
+      "package_name": "com.whatsapp",
+      "display_name": "WhatsApp",
+      "sample_group": "mixed",
+      "psychological_technique": null,
+      "institutional_intention": null,
+      "technical_mechanisms": [
+        {
+          "kind": "technical_mechanism",
+          "iri": "NotificationChannel",
+          "label": "Notification Channel",
+          "contextual_role": "utility",
+          "confidence": "medium",
+          "evidence_refs": [
+            "mixed_sample_selection",
+            "whatsapp_play_listing"
+          ]
+        }
+      ],
+      "os_components": [
+        {
+          "kind": "os_component",
+          "iri": "PushNotification",
+          "label": "Push Notification",
+          "contextual_role": "utility",
+          "confidence": "medium",
+          "evidence_refs": [
+            "mixed_sample_selection",
+            "whatsapp_play_listing"
+          ]
+        }
+      ],
+      "psychological_techniques": [],
+      "institutional_intentions": []
+    },
+    {
+      "package_name": "com.openai.chatgpt",
+      "display_name": "ChatGPT",
+      "sample_group": "mixed",
+      "psychological_technique": null,
+      "institutional_intention": null,
+      "technical_mechanisms": [],
+      "os_components": [],
+      "psychological_techniques": [],
+      "institutional_intentions": []
+    },
+    {
+      "package_name": "com.mercadolibre",
+      "display_name": "Mercado Livre",
+      "sample_group": "mixed",
+      "psychological_technique": null,
+      "institutional_intention": null,
+      "technical_mechanisms": [
+        {
+          "kind": "technical_mechanism",
+          "iri": "VariableReward",
+          "label": "Variable Reward",
+          "contextual_role": "retention",
+          "confidence": "medium",
+          "evidence_refs": [
+            "mixed_sample_selection",
+            "mercado_livre_play_listing"
+          ]
+        }
+      ],
+      "os_components": [
+        {
+          "kind": "os_component",
+          "iri": "PushNotification",
+          "label": "Push Notification",
+          "contextual_role": "utility",
+          "confidence": "medium",
+          "evidence_refs": [
+            "mixed_sample_selection",
+            "mercado_livre_play_listing"
+          ]
+        }
+      ],
+      "psychological_techniques": [],
+      "institutional_intentions": []
+    },
+    {
+      "package_name": "com.shopee.br",
+      "display_name": "Shopee",
+      "sample_group": "mixed",
+      "psychological_technique": null,
+      "institutional_intention": null,
+      "technical_mechanisms": [
+        {
+          "kind": "technical_mechanism",
+          "iri": "VariableReward",
+          "label": "Variable Reward",
+          "contextual_role": "retention",
+          "confidence": "medium",
+          "evidence_refs": [
+            "mixed_sample_selection",
+            "shopee_play_listing"
+          ]
+        }
+      ],
+      "os_components": [
+        {
+          "kind": "os_component",
+          "iri": "PushNotification",
+          "label": "Push Notification",
+          "contextual_role": "utility",
+          "confidence": "medium",
+          "evidence_refs": [
+            "mixed_sample_selection",
+            "shopee_play_listing"
+          ]
+        }
+      ],
+      "psychological_techniques": [
+        {
+          "kind": "psychological_technique",
+          "iri": "VariableReward",
+          "label": "Recompensa variável",
+          "contextual_role": "retention",
+          "confidence": "medium",
+          "evidence_refs": [
+            "mixed_sample_selection",
+            "shopee_play_listing"
+          ],
+          "relation": "usesTechnique via VariableReward mechanism",
+          "scope": "app_specific_catalog_association",
+          "caution": "Associação curada por ofertas e cupons descritos publicamente; não mede impulso de compra individual."
+        }
+      ],
+      "institutional_intentions": [
+        {
+          "kind": "institutional_intention",
+          "iri": "BoostInAppPurchases",
+          "label": "Estímulo a compras no app",
+          "contextual_role": "retention",
+          "confidence": "medium",
+          "evidence_refs": [
+            "mixed_sample_selection",
+            "shopee_play_listing"
+          ],
+          "relation": "aimsAtIntention via VariableReward",
+          "scope": "app_specific_catalog_association",
+          "caution": "Leitura exploratória do catálogo para compras no app; não representa diagnóstico comportamental do usuário."
+        }
+      ]
+    },
+    {
+      "package_name": "com.lemon.lvoverseas",
+      "display_name": "CapCut",
+      "sample_group": "mixed",
+      "psychological_technique": null,
+      "institutional_intention": null,
+      "technical_mechanisms": [
+        {
+          "kind": "technical_mechanism",
+          "iri": "SocialValidation",
+          "label": "Social Validation",
+          "contextual_role": "undetermined",
+          "confidence": "medium",
+          "evidence_refs": [
+            "mixed_sample_selection",
+            "capcut_play_listing"
+          ]
+        }
+      ],
+      "os_components": [],
+      "psychological_techniques": [],
+      "institutional_intentions": []
+    },
+    {
+      "package_name": "com.google.android.gm",
+      "display_name": "Gmail",
+      "sample_group": "utility",
+      "psychological_technique": null,
+      "institutional_intention": null,
+      "technical_mechanisms": [
+        {
+          "kind": "technical_mechanism",
+          "iri": "NotificationChannel",
+          "label": "Notification Channel",
+          "contextual_role": "utility",
+          "confidence": "medium",
+          "evidence_refs": [
+            "utility_sample_selection",
+            "gmail_play_listing"
+          ]
+        }
+      ],
+      "os_components": [
+        {
+          "kind": "os_component",
+          "iri": "PushNotification",
+          "label": "Push Notification",
+          "contextual_role": "utility",
+          "confidence": "medium",
+          "evidence_refs": [
+            "utility_sample_selection",
+            "gmail_play_listing"
+          ]
+        }
+      ],
+      "psychological_techniques": [],
+      "institutional_intentions": []
+    },
+    {
+      "package_name": "com.google.android.apps.maps",
+      "display_name": "Google Maps",
+      "sample_group": "utility",
+      "psychological_technique": null,
+      "institutional_intention": null,
+      "technical_mechanisms": [
+        {
+          "kind": "technical_mechanism",
+          "iri": "NotificationChannel",
+          "label": "Notification Channel",
+          "contextual_role": "utility",
+          "confidence": "medium",
+          "evidence_refs": [
+            "utility_sample_selection",
+            "google_maps_play_listing"
+          ]
+        }
+      ],
+      "os_components": [],
+      "psychological_techniques": [],
+      "institutional_intentions": []
+    },
+    {
+      "package_name": "br.com.intermedium",
+      "display_name": "Inter",
+      "sample_group": "utility",
+      "psychological_technique": null,
+      "institutional_intention": null,
+      "technical_mechanisms": [
+        {
+          "kind": "technical_mechanism",
+          "iri": "NotificationChannel",
+          "label": "Notification Channel",
+          "contextual_role": "undetermined",
+          "confidence": "low",
+          "evidence_refs": [
+            "utility_sample_selection"
+          ]
+        }
+      ],
+      "os_components": [],
+      "psychological_techniques": [],
+      "institutional_intentions": []
+    },
+    {
+      "package_name": "br.gov.meugovbr",
+      "display_name": "gov.br",
+      "sample_group": "utility",
+      "psychological_technique": null,
+      "institutional_intention": null,
+      "technical_mechanisms": [
+        {
+          "kind": "technical_mechanism",
+          "iri": "NotificationChannel",
+          "label": "Notification Channel",
+          "contextual_role": "undetermined",
+          "confidence": "low",
+          "evidence_refs": [
+            "utility_sample_selection"
+          ]
+        }
+      ],
+      "os_components": [],
+      "psychological_techniques": [],
+      "institutional_intentions": []
+    },
+    {
+      "package_name": "com.waze",
+      "display_name": "Waze",
+      "sample_group": "utility",
+      "psychological_technique": null,
+      "institutional_intention": null,
+      "technical_mechanisms": [
+        {
+          "kind": "technical_mechanism",
+          "iri": "LockScreenNotification",
+          "label": "Lock Screen Notification",
+          "contextual_role": "utility",
+          "confidence": "medium",
+          "evidence_refs": [
+            "utility_sample_selection",
+            "waze_play_listing"
+          ]
+        }
+      ],
+      "os_components": [
+        {
+          "kind": "os_component",
+          "iri": "PushNotification",
+          "label": "Push Notification",
+          "contextual_role": "utility",
+          "confidence": "medium",
+          "evidence_refs": [
+            "utility_sample_selection",
+            "waze_play_listing"
+          ]
+        }
+      ],
+      "psychological_techniques": [],
+      "institutional_intentions": []
+    }
+  ],
+  "evidence": [
+    {
+      "id": "retention_social_sample_selection",
+      "type": "sample_selection",
+      "reference": "docs/prototipo/pesquisa-selecao-catalogo-apps-2026-06-21.md",
+      "date": "2026-06-21",
+      "observed_version": "2026-06-21",
+      "supported_statement": "Instagram, TikTok, YouTube, X, Facebook and Threads compose the approved retention/social sample.",
+      "scope": "sample_selection"
+    },
+    {
+      "id": "mixed_sample_selection",
+      "type": "sample_selection",
+      "reference": "docs/prototipo/pesquisa-selecao-catalogo-apps-2026-06-21.md",
+      "date": "2026-06-21",
+      "observed_version": "2026-06-21",
+      "supported_statement": "WhatsApp, ChatGPT, Mercado Livre, Shopee and CapCut compose the approved mixed sample.",
+      "scope": "sample_selection"
+    },
+    {
+      "id": "utility_sample_selection",
+      "type": "sample_selection",
+      "reference": "docs/prototipo/pesquisa-selecao-catalogo-apps-2026-06-21.md",
+      "date": "2026-06-21",
+      "observed_version": "2026-06-21",
+      "supported_statement": "Gmail, Google Maps, Inter, gov.br and Waze compose the approved utility sample.",
+      "scope": "sample_selection"
+    },
+    {
+      "id": "instagram_play_listing",
+      "type": "app_store_listing",
+      "reference": "https://play.google.com/store/apps/details?id=com.instagram.android",
+      "date": "2026-06-21",
+      "observed_version": "2026-06-21",
+      "supported_statement": "Instagram highlights connecting with friends, fans and shared interests.",
+      "scope": "app_description"
+    },
+    {
+      "id": "tiktok_play_listing",
+      "type": "app_store_listing",
+      "reference": "https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically",
+      "date": "2026-06-21",
+      "observed_version": "2026-06-21",
+      "supported_statement": "TikTok highlights a discovery feed for videos, LIVE content, shopping and more.",
+      "scope": "app_description"
+    },
+    {
+      "id": "youtube_play_listing",
+      "type": "app_store_listing",
+      "reference": "https://play.google.com/store/apps/details?id=com.google.android.youtube",
+      "date": "2026-06-21",
+      "observed_version": "2026-06-21",
+      "supported_statement": "YouTube highlights videos across music, gaming, news, learning and subscriptions.",
+      "scope": "app_description"
+    },
+    {
+      "id": "x_play_listing",
+      "type": "app_store_listing",
+      "reference": "https://play.google.com/store/apps/details?id=com.twitter.android",
+      "date": "2026-06-21",
+      "observed_version": "2026-06-21",
+      "supported_statement": "X frames the app as a real-time conversation space for news, events and podcasts.",
+      "scope": "app_description"
+    },
+    {
+      "id": "facebook_play_listing",
+      "type": "app_store_listing",
+      "reference": "https://play.google.com/store/apps/details?id=com.facebook.katana",
+      "date": "2026-06-21",
+      "observed_version": "2026-06-21",
+      "supported_statement": "Facebook highlights reels, groups, sharing and curiosity-driven discovery.",
+      "scope": "app_description"
+    },
+    {
+      "id": "threads_play_listing",
+      "type": "app_store_listing",
+      "reference": "https://play.google.com/store/apps/details?id=com.instagram.barcelona",
+      "date": "2026-06-21",
+      "observed_version": "2026-06-21",
+      "supported_statement": "Threads highlights text conversations built around topics and communities.",
+      "scope": "app_description"
+    },
+    {
+      "id": "whatsapp_play_listing",
+      "type": "app_store_listing",
+      "reference": "https://play.google.com/store/apps/details?id=com.whatsapp",
+      "date": "2026-06-21",
+      "observed_version": "2026-06-21",
+      "supported_statement": "WhatsApp highlights free messaging and video calling across devices.",
+      "scope": "app_description"
+    },
+    {
+      "id": "chatgpt_play_listing",
+      "type": "app_store_listing",
+      "reference": "https://play.google.com/store/apps/details?id=com.openai.chatgpt",
+      "date": "2026-06-21",
+      "observed_version": "2026-06-21",
+      "supported_statement": "ChatGPT highlights synced history and OpenAI features, including image generation.",
+      "scope": "app_description"
+    },
+    {
+      "id": "mercado_livre_play_listing",
+      "type": "app_store_listing",
+      "reference": "https://play.google.com/store/apps/details?id=com.mercadolibre",
+      "date": "2026-06-21",
+      "observed_version": "2026-06-21",
+      "supported_statement": "Mercado Livre highlights online shopping, selling and a broad product catalog.",
+      "scope": "app_description"
+    },
+    {
+      "id": "shopee_play_listing",
+      "type": "app_store_listing",
+      "reference": "https://play.google.com/store/apps/details?id=com.shopee.br",
+      "date": "2026-06-21",
+      "observed_version": "2026-06-21",
+      "supported_statement": "Shopee highlights coupons, free shipping and shopping offers.",
+      "scope": "app_description"
+    },
+    {
+      "id": "capcut_play_listing",
+      "type": "app_store_listing",
+      "reference": "https://play.google.com/store/apps/details?id=com.lemon.lvoverseas",
+      "date": "2026-06-21",
+      "observed_version": "2026-06-21",
+      "supported_statement": "CapCut highlights an all-in-one video editor with easy sharing.",
+      "scope": "app_description"
+    },
+    {
+      "id": "gmail_play_listing",
+      "type": "app_store_listing",
+      "reference": "https://play.google.com/store/apps/details?id=com.google.android.gm",
+      "date": "2026-06-21",
+      "observed_version": "2026-06-21",
+      "supported_statement": "Gmail highlights secure email, multi-account support and search.",
+      "scope": "app_description"
+    },
+    {
+      "id": "google_maps_play_listing",
+      "type": "app_store_listing",
+      "reference": "https://play.google.com/store/apps/details?id=com.google.android.apps.maps",
+      "date": "2026-06-21",
+      "observed_version": "2026-06-21",
+      "supported_statement": "Google Maps highlights routes, live traffic, GPS navigation and places.",
+      "scope": "app_description"
+    },
+    {
+      "id": "inter_play_listing",
+      "type": "app_store_listing",
+      "reference": "https://play.google.com/store/apps/details?id=br.com.intermedium",
+      "date": "2026-06-21",
+      "observed_version": "2026-06-21",
+      "supported_statement": "Inter highlights digital banking, investments and money transfers.",
+      "scope": "app_description"
+    },
+    {
+      "id": "govbr_play_listing",
+      "type": "app_store_listing",
+      "reference": "https://play.google.com/store/apps/details?id=br.gov.meugovbr",
+      "date": "2026-06-21",
+      "observed_version": "2026-06-21",
+      "supported_statement": "gov.br highlights access to government services with biometrics.",
+      "scope": "app_description"
+    },
+    {
+      "id": "waze_play_listing",
+      "type": "app_store_listing",
+      "reference": "https://play.google.com/store/apps/details?id=com.waze",
+      "date": "2026-06-21",
+      "observed_version": "2026-06-21",
+      "supported_statement": "Waze highlights GPS navigation, live traffic updates and safety alerts.",
+      "scope": "app_description"
+    }
+  ]
+}
