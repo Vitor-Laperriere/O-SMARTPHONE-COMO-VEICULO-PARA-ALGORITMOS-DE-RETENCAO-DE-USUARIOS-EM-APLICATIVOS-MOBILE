@@ -6,9 +6,15 @@ Repositório público dos artefatos finais do Trabalho de Conclusão de Curso.
 
 
 - `poc1-ontologies-owx-REVISION-HEAD/`: ontologia OWL/XML final usada no trabalho.
+- [`Grafo_ontologia.svg`](Grafo_ontologia.svg): visualização do grafo da ontologia.
+- [`POC2-relatorio-final.pdf`](POC2-relatorio-final.pdf): relatório final da POC2.
 - `docs/Competency Questions`: Competency Questions.
 - `foco_tela/`: código-fonte do protótipo Android/Flutter, sem artefatos de build.
 
+
+## Visualização da ontologia
+
+![Grafo da ontologia](Grafo_ontologia.svg)
 
 ## Como validar a ontologia
 
@@ -17,6 +23,10 @@ xmllint --noout poc1-ontologies-owx-REVISION-HEAD/urn_webprotege_ontology_754388
 ```
 
 A validação lógica com HermiT foi registrada nos documentos em `docs/ontologia/obsidian/mapeamento-owl/`.
+
+## Relatório final
+
+O relatório final da POC2 está disponível em [`POC2-relatorio-final.pdf`](POC2-relatorio-final.pdf).
 
 ## Como executar o protótipo
 
